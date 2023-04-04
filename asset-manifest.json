@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio0237/static/css/main.cb13b6c8.css",
+    "main.js": "/Portfolio0237/static/js/main.03c4e27a.js",
+    "static/media/jason.png": "/Portfolio0237/static/media/jason.5d29e07f98fa7616904b.png",
+    "static/media/cv.pdf": "/Portfolio0237/static/media/cv.8f1b4a6b304b23619e4f.pdf",
+    "static/media/glassesimoji.png": "/Portfolio0237/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/Gumela Regular.otf": "/Portfolio0237/static/media/Gumela Regular.0ae83c6988a536716eb4.otf",
+    "static/media/thumbup.png": "/Portfolio0237/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/Portfolio0237/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/Portfolio0237/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/crown.png": "/Portfolio0237/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/Portfolio0237/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/Portfolio0237/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/Portfolio0237/index.html",
+    "main.cb13b6c8.css.map": "/Portfolio0237/static/css/main.cb13b6c8.css.map",
+    "main.03c4e27a.js.map": "/Portfolio0237/static/js/main.03c4e27a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb13b6c8.css",
+    "static/js/main.03c4e27a.js"
+  ]
+}
