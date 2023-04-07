@@ -21,16 +21,33 @@ const Works = () => {
                     <br /> Saepe nobis minima maiores esse quasi itaque officia soluta est.
                 </span>
 
-                <button className="button s-button" >Download CV</button>
+                <button className="button s-button" >contact me</button>
                 <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
             </div>
 
             <div className="w-right">
-                <div className="w-maincircle">
-
+                <div className="w-mainCircle">
+                    
+                    <div className="w-secCircle">
+                        <img src={Upwork} alt="" />
+                    </div>
+                    <div className="w-secCircle">
+                        <img src={Fiverr} alt="" />
+                    </div>
+                    <div className="w-secCircle">
+                        <img src={Amazone} alt="" />
+                    </div>
+                    <div className="w-secCircle">
+                        <img src={Shopify} alt="" />
+                    </div>
+                    <div className="w-secCircle">
+                        <img src={Facebook} alt="" />
+                    </div>
                 </div>
+                <div className="w-backCircle blueCircle"></div>
+                <div className="w-backCircle yellowCircle"></div>
             </div>
-            
+
         </div>
     )
 }

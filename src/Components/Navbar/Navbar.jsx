@@ -1,12 +1,13 @@
 import React from "react";
 import './Navbar.css'
+import Mode from "../Mode/Mode";
 
 const Navbar = () => {
     return (
         <div className="n-wrapper">
             <div className="n-left">
                 <div className="n-name">Jason</div>
-                <span>mode</span>
+                <Mode />
             </div>
             <div className="n-right">
                 <div className="n-list">

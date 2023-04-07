@@ -10,6 +10,11 @@ import thumbup from '../../img/thumbup.png'
 import Crown from '../../img/crown.png'
 import glassesimoji from '../../img/glassesimoji.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
+import { themeContext } from "../../Context";
+import { useContext } from "react";
+
+
+const transition = {duration: 2, type: 'spring'}
 
 
 const Intro = () => {
@@ -43,7 +48,11 @@ const Intro = () => {
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
                 <img src={jason} alt="" />
-                <img src={glassesimoji} alt="" />
+                <img
+                    initial={{ left: '-36%' }}
+                    whileInView={{ left: '-24%' }}
+                    transition={transition}
+                src={glassesimoji} alt="" />
                 <div className="pose">
                     <FloatingDiv image={Crown} text1='Web' text2='Developer' />
                 </div>
