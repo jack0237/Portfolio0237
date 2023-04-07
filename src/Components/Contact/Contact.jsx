@@ -32,7 +32,7 @@ const Contact = () => {
             <div className="awasome">
                 <span>Get in touch</span>
                 <span>Contact me</span>
-                <div className="blur s-blur1" style={{ background:'#ABF1FF94' }}></div>
+                <div className="blur s-blur1" style={{ background:'#ABF1FF94' }}> </div>
             </div>
         </div>
 
@@ -41,7 +41,7 @@ const Contact = () => {
                 <input type="text" name='user_name' className='user' placeholder='Name' />
                 <input type="email" name='user_email' className='user' placeholder='Email' />
                 <textarea name="message" placeholder="Message" className="user" />
-                <input type="submit" value="Send" className='button' />
+                <input type="submit" value="Send" className='button' style={{ cursor: 'pointer' }} />
                 <div className="blur s-blur1" style={{ background:'var(--purple)' }}></div>
                 <span>{ done && "Thanks for contacting me!" }</span>
             </form>
